@@ -1,44 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #403E3B;
 }
 
-h1 {
-    font-size: 64px;
-    line-height: 70px;
-    color: #1B1A1A;
-}
-
-.h2-small {
-    font-size: 32px;
-    line-height: 38px;
-    color: #403E3B;
-}
-
-.h2-medium {
-    font-size: 39px;
-    line-height: 42px;
-    color: #1B1A1A;
-}
-
-h3 {
-    font-size: 18px;
-    line-height: 26px;
-    color: #403E3B;
-}
-
-.acent-text {
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #645C55;
+header {
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 .container {
@@ -46,36 +13,11 @@ h3 {
     margin: auto;
 }
 
-.container-small {
-    max-width: 768px;
-    margin: auto;
-}
-
-.d_flex {
+.d-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-.d_flex_left {
-    display: flex;
-    justify-content: left;
-}
-
-.section_p_100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-/*
------------------
-Header
------------------
- */
-
-header {
-    padding-top: 22px;
-    padding-bottom: 22px;
 }
 
 header nav ul {
@@ -83,26 +25,40 @@ header nav ul {
     list-style: none;
 }
 
-header a:first-of-type {
-    margin-left: 32px;
+.main_banner {
+    background-color: #ECE7E4;
+    height: 100vh;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
 }
 
+.main_banner article {
+    max-width: 509px;
+    /*padding: 70px 51px 51px 40px;*/
+}
 
 header nav ul li {
     transition: 0.4s;
-    margin: 13px 16px;
+    margin: 13px 16px;;
 }
 
 header nav ul li:hover {
-    transition: 0.4s;
-    transform: scale(1.2, 1.2);
+    transform: rotate(360deg);
 }
 
 header nav ul li:last-of-type {
-    margin: 13px 40px 13px 31px;
+    margin: 0;
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 
 header nav ul li:last-of-type a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.4px;
     color: #FFFFFF;
     text-decoration: none;
@@ -112,148 +68,15 @@ header nav ul li:last-of-type a {
     text-align: center;
 }
 
-header nav ul li:last-of-type a:hover {
-    background: #FFFFFF;
-    color: #1B1A1A;
-    border: 1px solid #1B1A1A;
-    transform: scale(1.01, 1.01);
-}
-
 /*header nav ul li:nth-child(2) {*/
 /*    background-color: red;*/
 /*}*/
 header nav ul li a {
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #1B1A1A;
-}
-
-/*
---------------------
-Main banner
----------------------
-*/
-
-.main_banner {
-    background-color: #ECE7E4;
-    height: 100vh;
-    position: relative;
-}
-
-.main_bg {
-    background-image: url('../images/image.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 50%;
-    height: 100vh;
-}
-
-.main_banner article {
-    max-width: 509px;
-    padding: 70px 51px 51px 40px;
-}
-
-.main_banner h1 {
-    margin-bottom: 18px;
-}
-
-.main_banner p:first-of-type {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #645C55;
-}
-
-.main_banner p {
-    margin-bottom: 20px;
-}
-
-.main_banner a {
-    letter-spacing: 0.4px;
-    color: #1B1A1A;
-    padding: 11px 20px;
-    background: none;
-    border-radius: 14px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.main_banner a:hover {
-    transition: 0.4s;
-    text-decoration-line: underline;
-}
-
-/*
----------------
-Our firm
----------------
-*/
-
-.section_our_firm .h2-small {
-    width: 134px;
-    margin-right: 132px;
-    white-space: nowrap;
-}
-
-.section_our_firm .content-our-firm p {
-    padding-bottom: 10px;
-}
-
-.section_our_firm h4 {
-    font-size: 17px;
-    line-height: 26px;
-    padding-left: 30px;
-}
-
-.section_our_firm span {
-    display: block;
-    font-size: 14px;
-    line-height: 14px;
-    color: #645C55;
-}
-
-
-/*
-------------------------
-How we do what we do.
-Our process
------------------------
-*/
-
-.section_our_process h4 {
-    text-align: center;
-    padding-bottom: 13px;
-}
-
-.section_our_process .h2-medium {
-    text-align: center;
-    padding-bottom: 47px;
-}
-
-.section_our_process .item {
-    text-align: center;
-}
-
-.section_our_process .item_img {
-    padding-bottom: 15px;
-}
-
-.section_our_process .item_img img {
-    width: 117px;
-    height: 102px;
-}
-
-.section_our_process .item h3 {
-    padding-bottom: 10px;
-}
-
-.section_our_process .item p {
-    text-align: center;
-    padding-bottom: 10px;
 }
