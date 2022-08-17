@@ -15,7 +15,7 @@ h1 {
     color: #1B1A1A;
 }
 
-.h2-small {
+.h2_small {
     font-size: 32px;
     line-height: 38px;
     color: #403E3B;
@@ -33,16 +33,25 @@ h3 {
     color: #403E3B;
 }
 
-.acent-text {
+h4 {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #403E3B;
+}
+
+.acent-text {
     color: #645C55;
 }
 
 .container {
     max-width: 1200px;
+    margin: auto;
+}
+
+.container_1168 {
+    max-width: 1168px;
     margin: auto;
 }
 
@@ -60,6 +69,16 @@ h3 {
 .d_flex_left {
     display: flex;
     justify-content: left;
+}
+
+.d_flex_centre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex_wrap {
+    flex-wrap: wrap;
 }
 
 .section_p_100 {
@@ -168,7 +187,6 @@ Main banner
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #645C55;
-
 }
 
 .main_banner p {
@@ -196,7 +214,7 @@ Our firm
 ---------------
 */
 
-.section_our_firm .h2-small {
+.section_our_firm .h2_small {
     width: 134px;
     margin-right: 132px;
     white-space: nowrap;
@@ -210,6 +228,7 @@ Our firm
     font-size: 17px;
     line-height: 26px;
     padding-left: 30px;
+    text-transform: capitalize;
 }
 
 .section_our_firm span {
@@ -218,7 +237,6 @@ Our firm
     line-height: 14px;
     color: #645C55;
 }
-
 
 /*
 ------------------------
@@ -257,4 +275,218 @@ Our process
 .section_our_process .item p {
     text-align: center;
     padding-bottom: 10px;
+}
+
+/*
+---------------------
+PORTFOLIO ALL
+---------------------
+ */
+
+.portfolio_general_css {
+    background: #ECE7E4;
+    min-height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sub_container {
+    max-width: 285px;
+    margin-right: 75px;
+}
+
+/*
+-------------------
+PORTFOLIO 1
+---------------------
+ */
+
+.portfolio1 {
+    background-image: url("../images/bg_portfolio1.jpg");
+}
+
+.portfolio1 .sub_container p {
+    color: #645C55;
+}
+
+/*
+---------------------
+PORTFOLIO 2
+---------------------
+ */
+
+.portfolio2 {
+    background-image: url("../images/bg_portfolio2.jpg");
+}
+
+.portfolio2 .sub_container p {
+    color: #645C55;
+}
+
+/*
+---------------------
+PORTFOLIO 3
+---------------------
+ */
+
+.portfolio3 {
+    background-image: url("../images/bg_portfolio3.jpg");
+    justify-content: flex-start;
+}
+
+.portfolio3 .sub_container {
+    margin-left: 60px;
+    margin-right: 0;
+}
+
+.portfolio3 .sub_container p {
+    color: #645C55;
+}
+
+/*
+----------------
+CUSTOMERS
+------------------
+ */
+
+.customers {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #403E3B;
+}
+
+.column_content {
+    max-width: 451px;
+}
+
+.customers h4 {
+    color: #ECE7E4;
+}
+
+.customers h2.h2_small {
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+.customers p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ECE7E4;
+    padding-bottom: 10px;
+}
+
+.customers .column_icons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customers .flex_icon {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 128px;
+    /*flex-basis: 128px;*/
+    /*justify-content: center;*/
+    align-self: center;
+}
+
+/*
+________________________
+TEAM
+________________________
+ */
+
+.team {
+    background: #FFFFFF;
+}
+
+.team_container {
+    justify-content: space-between;
+}
+
+.team .meet_team {
+    max-width: 358px;
+    padding-right: 16px;
+}
+
+.team h2.h2_small {
+    padding-bottom: 14px;
+}
+
+.team p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #645C55;
+    padding-bottom: 30px;
+}
+
+.team a {
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    border-radius: 14px;
+    padding: 11px 20px;
+}
+
+.team .team_container_flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.team .team_block_flex {
+    display: flex;
+    margin-bottom: 19px;
+    align-self: flex-start;
+}
+
+.team .team_block_flex img {
+    max-width: 84px;
+    max-height: 84px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.team .team_block_flex h4 {
+    padding: 30px;
+    text-transform: capitalize;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+
+.team .team_block_flex span {
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
+
+/*
+_________________
+GET IN TOUCH
+__________________
+ */
+
+.get_in_touch {
+    background: #CEC4BC;
+}
+
+.container_get_in_touch {
+    max-width: 569px;
+}
+
+.get_in_touch a {
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    padding: 11px 20px;
+    border-radius: 14px;
 }
