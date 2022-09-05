@@ -393,7 +393,121 @@ CUSTOMERS
     /*justify-content: center;*/
     align-self: center;
 }
+/*
+________________________
+FEATURE
+________________________
+ */
 
+.featured_projects {
+    background-color: #F7F7F7;
+    padding-top: 1130px;
+    padding-bottom: 111px;
+}
+
+.featured_projects h2.h2-medium {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin-bottom: 15px;
+}
+
+.featured_projects p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    margin-bottom: 44px;
+}
+.featured_projects .item:hover .description {
+    bottom: 0;
+}
+.featured_projects .item {
+    max-width: 375px;
+    position: relative;
+    overflow: hidden;
+}
+.featured_projects .item img {
+    width: 100%;
+    display: block;
+}
+
+.featured_projects .item .description {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 40px;
+    bottom: 100%;
+    transition: 0.4s;
+}
+
+.featured_projects .description h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #403E3B;
+    width: 100%;
+}
+.featured_projects .description h4 span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    display: block;
+}
+
+.featured_projects .description a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    background: #1B1A1A;
+    border-radius: 14px;
+}
+
+.ui-accordion .ui-accordion-header {
+    border: none;
+    background: none;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    padding-top: 53px;
+}
+.ui-icon {
+    display: none;
+}
+
+.ui-accordion .ui-accordion-content {
+    background: none;
+    border: none;
+    padding: 0;
+}
 /*
 ________________________
 TEAM
