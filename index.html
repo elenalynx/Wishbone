@@ -12,15 +12,20 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Wishbone+Partners</title>
 </head>
 <body>
-<header>
-    <div class="container d_flex">
+<header class="cd-header">
+    <div class="navigation container d_flex">
         <a href="#">
             <img src="images/logo.svg" alt="logo">
         </a>
-        <nav>
+        <a href="#" class="cd-3d-nav-trigger">
+            Menu
+            <span></span>
+        </a>
+        <nav class="web-nav">
             <ul>
                 <li>
                     <a href="#">Projects</a>
@@ -44,287 +49,521 @@
         </nav>
     </div>
 </header>
-<section class="main_banner">
-    <div class="container d_flex">
-        <article>
-            <h4 class="acent-text">Wishbone+Partners</h4>
-            <h1>The home of beautiful architecture.</h1>
-            <p>We are an architecture firm with a focus on beautiful but functional design. At its heart, we
-                believe
-                design is about usability and accessibility — these are the guiding principles for our work. Read
-                more about our previous projects, our process and our team below.</p>
-            <a href="#" target="_blank">Read more</a>
-        </article>
-    </div>
-    <div class="main_bg">
-    </div>
-</section>
-<section class="section_p_100 section_our_firm">
-    <div class="container-small d_flex_left">
-        <h2 class="h2_small">Our firm</h2>
-        <div class="content-our-firm">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
-                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
-                posuere.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
-                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
-                posuere.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
-                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
-                posuere.</p>
-            <div class="d_flex d_flex_left">
-                <img src="./images/Stephen-Collier.png" alt="partner_photo">
-                <h4>Stephen Collier<span>Senior Partner</span></h4>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="portfolio1 portfolio_general_css">
-    <div class="sub_container">
-        <h4>Reeding House</h4>
-        <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
-    </div>
-</section>
-<section class="section_p_100 section_our_process">
-    <div class="container">
-        <h4 class="acent-text">Our process</h4>
-        <h2 class="h2-medium">How we do what we do.</h2>
-        <div class="d_flex">
-            <div class="item">
-                <div class="item_img">
-                    <img src="images/icon1.png" alt="icon1">
-                </div>
-                <h3>Sketching</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus
-                    sapien ac arcu tempor, vitae tempor leo iaculis.</p>
-            </div>
-            <div class="item">
-                <div class="item_img">
-                    <img src="images/icon2.png" alt="icon2">
-                </div>
-                <h3>Finalizing</h3>
-                <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu
-                    tempor, vitae.</p>
-            </div>
-            <div class="item">
-                <div class="item_img">
-                    <img src="images/icon3.png" alt="icon3">
-                </div>
-                <h3>Building</h3>
-                <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae
-                    lorem ipsum dolor leo iaculis.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="portfolio2 portfolio_general_css">
-    <div class="sub_container">
-        <h4>The marble staircase</h4>
-        <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
-    </div>
-</section>
-<section class="customers">
-    <div class="container_1168 d_flex_centre flex_wrap">
-        <div class="column_content">
-            <h4>prior clients</h4>
-            <h2 class="h2_small">Happy customers.</h2>
-            <p>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.
-                Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
-        </div>
-        <div class="column_icons">
-            <div class="flex_icon">
-                <a href="#"><img src="./images/hill_hayers.png" alt="hill_hayers"></a>
-            </div>
-            <div class="flex_icon">
-                <a href="#"><img src="./images/studio_cail.png" alt="studio_cail"></a>
-            </div>
-        </div>
-        <div class="column_icons">
-            <div class="flex_icon">
-                <a href="#"><img src="./images/riksgransen.png" alt="riksgransen"></a>
-            </div>
-            <div class="flex_icon">
-                <a href="#"><img src="./images/chill_Industries.png" alt="chill_Industries"></a>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="portfolio3 portfolio_general_css">
-    <div class="sub_container">
-        <h4>The swirling staircase</h4>
-        <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
-    </div>
-</section>
-<section class="featured_projects">
-    <div class="container">
-        <h2 class="h2-medium">Featured projects</h2>
-        <p>Some of the latest and greatest projects from us here at Wishbone+Partners.</p>
 
-        <div id="accordion">
-            <h3>View all projects</h3>
-            <div class="d_flex">
-                <div class="item">
-                    <div class="description">
-                        <h4>
-                            <span>New York</span>
-                            Big Road Brewery
-                        </h4>
-                        <a href="#">Read more</a>
-                    </div>
-                    <img src="images/project1.jpg" alt="img">
-                </div>
-                <div class="item">
-                    <div class="description">
-                        <h4>
-                            <span>New York</span>
-                            Big Road Brewery
-                        </h4>
-                        <a href="#">Read more</a>
-                    </div>
-                    <img src="images/project2.jpg" alt="img">
-                </div>
-                <div class="item">
-                    <div class="description">
-                        <h4>
-                            <span>New York</span>
-                            Big Road Brewery
-                        </h4>
-                        <a href="#">Read more</a>
-                    </div>
-                    <img src="images/project3.jpg" alt="img">
-                </div>
-            </div>
-            <h3>View all projects</h3>
-            <div class="d_flex">
-                <div class="item">
-                    <div class="description">
-                        <h4>
-                            <span>New York</span>
-                            Big Road Brewery
-                        </h4>
-                        <a href="#">Read more</a>
-                    </div>
-                    <img src="images/project1.jpg" alt="img">
-                </div>
-                <div class="item">
-                    <div class="description">
-                        <h4>
-                            <span>New York</span>
-                            Big Road Brewery
-                        </h4>
-                        <a href="#">Read more</a>
-                    </div>
-                    <img src="images/project2.jpg" alt="img">
-                </div>
-                <div class="item">
-                    <div class="description">
-                        <h4>
-                            <span>New York</span>
-                            Big Road Brewery
-                        </h4>
-                        <a href="#">Read more</a>
-                    </div>
-                    <img src="images/project3.jpg" alt="img">
-                </div>
-            </div>
-        </div>
-    </div>
+<nav class="cd-3d-nav-container">
+    <ul class="cd-3d-nav">
+        <li class="cd-selected">
+            <a href="#">Projects</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">News</a>
+        </li>
+        <li>
+            <a href="#">Team</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">Get template</a>
+        </li>
+    </ul> <!-- .cd-3d-nav -->
 
-</section>
-<section class="team section_p_100">
-    <div class="team_container container_1168 d_flex_left flex_wrap">
-        <div class="meet_team">
-            <h2 class="h2_small">Meet our team</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                tristique. Duis cursus, mi quis.</p>
-            <a href="#">See team</a>
+    <span class="cd-marker color-1"></span>
+</nav>
+<!-- .cd-3d-nav-container -->
+
+<main>
+    <section class="main_banner">
+        <div class="container d_flex">
+            <article>
+                <h4 class="acent-text">Wishbone+Partners</h4>
+                <h1>The home of <br>beautiful <br>architecture.</h1>
+                <p>We are an architecture firm with a focus on beautiful but functional design. At its heart, we
+                    believe
+                    design is about usability and accessibility — these are the guiding principles for our work. Read
+                    more about our previous projects, our process and our team below.</p>
+                <a href="#" target="_blank">Read more</a>
+            </article>
         </div>
-        <div class="team_container_flex">
-            <div class="team_block_flex">
-                <img src="./images/Stephen-Collier.png" alt="Stephen Collier">
-                <h4>Stephen Collier<span>Senior Partner</span></h4>
-            </div>
-            <div class="team_block_flex">
-                <img src="./images/Ferris_Wonder.png" alt="Ferris Wonder">
-                <h4>Ferris Wonder<span>Associate Partner</span></h4>
-            </div>
-            <div class="team_block_flex">
-                <img src="./images/Niko_Ferry.png" alt="Niko Ferry">
-                <h4>Niko Ferry<span>Partner</span></h4>
+        <div class="main_bg">
+        </div>
+    </section>
+    <section class="section_p_100 section_our_firm">
+        <div class="container-small d_flex_left">
+            <h2 class="h2_small">Our firm</h2>
+            <div class="content-our-firm">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae
+                    erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                    tristique
+                    posuere.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae
+                    erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                    tristique
+                    posuere.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+                    vitae
+                    erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                    tristique
+                    posuere.</p>
+                <div class="d_flex d_flex_left">
+                    <img src="./images/Stephen-Collier.png" alt="partner_photo">
+                    <h4>Stephen Collier<span>Senior Partner</span></h4>
+                </div>
             </div>
         </div>
-        <div class="team_container_flex">
-            <div class="team_block_flex">
-                <img src="./images/Nolan_Peters.png" alt="Nolan Peters">
-                <h4>Nolan Peters<span>Associate</span></h4>
+    </section>
+    <section class="portfolio1 portfolio_general_css">
+        <div class="sub_container">
+            <h4>Reeding House</h4>
+            <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+        </div>
+    </section>
+    <section class="section_p_100 section_our_process">
+        <div class="container">
+            <h4 class="acent-text">Our process</h4>
+            <h2 class="h2-medium">How we do what we do.</h2>
+            <div class="d_flex container_1168">
+                <div class="item">
+                    <div class="item_img">
+                        <img src="images/icon1.png" alt="icon1">
+                    </div>
+                    <h3>Sketching</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus
+                        sapien ac arcu tempor, vitae tempor leo iaculis.</p>
+                </div>
+                <div class="item">
+                    <div class="item_img">
+                        <img src="images/icon2.png" alt="icon2">
+                    </div>
+                    <h3>Finalizing</h3>
+                    <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu
+                        tempor, vitae.</p>
+                </div>
+                <div class="item">
+                    <div class="item_img">
+                        <img src="images/icon3.png" alt="icon3">
+                    </div>
+                    <h3>Building</h3>
+                    <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor,
+                        vitae
+                        lorem ipsum dolor leo iaculis.</p>
+                </div>
             </div>
-            <div class="team_block_flex">
-                <img src="./images/Aria_Stone.png" alt="Aria Stone">
-                <h4>Aria Stone<span>Senior Partner</span></h4>
+        </div>
+    </section>
+    <section class="portfolio2 portfolio_general_css">
+        <div class="sub_container">
+            <h4>The marble staircase</h4>
+            <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+        </div>
+    </section>
+    <section class="customers">
+        <div class="container_1168 d_flex_centre flex_wrap">
+            <div class="column_content">
+                <h4>prior clients</h4>
+                <h2 class="h2_small">Happy customers.</h2>
+                <p>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.
+                    Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+            </div>
+            <div class="column_icons">
+                <div class="flex_icon">
+                    <a href="#"><img src="./images/hill_hayers.png" alt="hill_hayers"></a>
+                </div>
+                <div class="flex_icon">
+                    <a href="#"><img src="./images/studio_cail.png" alt="studio_cail"></a>
+                </div>
+            </div>
+            <div class="column_icons">
+                <div class="flex_icon">
+                    <a href="#"><img src="./images/riksgransen.png" alt="riksgransen"></a>
+                </div>
+                <div class="flex_icon">
+                    <a href="#"><img src="./images/chill_Industries.png" alt="chill_Industries"></a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="get_in_touch section_p_100">
-    <div class="container_1168 d_flex flex_wrap">
-        <div class="container_get_in_touch">
-            <h4 class="acent-text">Get in touch</h4>
-            <h2 class="h2-medium">Think we would be a good fit for your next project?</h2>
+    </section>
+    <section class="portfolio3 portfolio_general_css">
+        <div class="sub_container">
+            <h4>The swirling staircase</h4>
+            <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
         </div>
-        <div>
-            <a href="#">Get in touch</a>
+    </section>
+    <section class="featured_projects">
+        <div class="container_1168">
+            <h2 class="h2-medium">Featured projects</h2>
+            <p>Some of the latest and greatest projects from us here at Wishbone+Partners.</p>
+            <div id="accordion">
+                <h3>View all projects</h3>
+                <div class="d_flex">
+                    <div class="item">
+                        <div class="description">
+                            <h4>
+                                <span>New York</span>
+                                Big Road Brewery
+                            </h4>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/project1.jpg" alt="img">
+                    </div>
+                    <div class="item">
+                        <div class="description">
+                            <h4>
+                                <span>New York</span>
+                                Big Road Brewery
+                            </h4>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/project2.jpg" alt="img">
+                    </div>
+                    <div class="item">
+                        <div class="description">
+                            <h4>
+                                <span>New York</span>
+                                Big Road Brewery
+                            </h4>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/project3.jpg" alt="img">
+                    </div>
+                </div>
+                <h3>View all projects</h3>
+                <div class="d_flex">
+                    <div class="item">
+                        <div class="description">
+                            <h4>
+                                <span>New York</span>
+                                Big Road Brewery
+                            </h4>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/project1.jpg" alt="img">
+                    </div>
+                    <div class="item">
+                        <div class="description">
+                            <h4>
+                                <span>New York</span>
+                                Big Road Brewery
+                            </h4>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/project2.jpg" alt="img">
+                    </div>
+                    <div class="item">
+                        <div class="description">
+                            <h4>
+                                <span>New York</span>
+                                Big Road Brewery
+                            </h4>
+                            <a href="#">Read more</a>
+                        </div>
+                        <img src="images/project3.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
-<!--LESSON-->
-<!--<section>-->
-<!--    <form name="" action="#" method="post" target="_blank">-->
-<!--        <div style="max-width: 1000px;">-->
-<!--            <label for="first_name">First name</label>-->
-<!--            <input type="text" name="first_name" placeholder="First name" id="first_name" style="width: 100%;">-->
-<!--        </div>-->
-<!--        <div style="max-width: 1000px">-->
-<!--            <label>-->
-<!--            <input type="checkbox" name="i_agree" checked>-->
-<!--                I agree about...-->
-<!--            </label>-->
-<!--        </div>-->
-<!--        <div style="max-width: 1000px">-->
-<!--            <h3>Gender</h3>-->
-<!--            <label>-->
-<!--                <input type="radio" name="Gender" value="man">-->
-<!--                man-->
-<!--            </label>-->
-<!--            <label>-->
-<!--                <input type="radio" name="Gender" value="woman">-->
-<!--                woman-->
-<!--            </label>-->
-<!--            <label>-->
-<!--                <input type="radio" name="Gender" value="other">-->
-<!--                other-->
-<!--            </label>-->
-<!--        </div>-->
-<!--        <div style="max-width: 1000px">-->
-<!--            <textarea style="resize: none">-->
-<!--            </textarea>-->
-<!--        </div>-->
-<!--        <div style="max-width: 1000px">-->
-<!--          <select>-->
-<!--              <option>Kiev</option>-->
-<!--              <option selected>Kharkiv</option>-->
-<!--              <option>Odesa</option>-->
-<!--          </select>-->
-<!--        </div>-->
-<!--        <button type="submit">-->
-<!--            send-->
-<!--        </button>-->
-<!--    </form>-->
+
+    </section>
+    <section class="team section_p_100">
+        <div class="team_container container_1168 d_flex_left flex_wrap">
+            <div class="meet_team">
+                <h2 class="h2_small">Meet our team</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique. Duis cursus, mi quis.</p>
+                <a href="#">See team</a>
+            </div>
+            <div class="team_container_flex">
+                <div class="team_block_flex">
+                    <img src="./images/Stephen-Collier.png" alt="Stephen Collier">
+                    <h4>Stephen Collier<span>Senior Partner</span></h4>
+                </div>
+                <div class="team_block_flex">
+                    <img src="./images/Ferris_Wonder.png" alt="Ferris Wonder">
+                    <h4>Ferris Wonder<span>Associate Partner</span></h4>
+                </div>
+                <div class="team_block_flex">
+                    <img src="./images/Niko_Ferry.png" alt="Niko Ferry">
+                    <h4>Niko Ferry<span>Partner</span></h4>
+                </div>
+            </div>
+            <div class="team_container_flex">
+                <div class="team_block_flex">
+                    <img src="./images/Nolan_Peters.png" alt="Nolan Peters">
+                    <h4>Nolan Peters<span>Associate</span></h4>
+                </div>
+                <div class="team_block_flex">
+                    <img src="./images/Aria_Stone.png" alt="Aria Stone">
+                    <h4>Aria Stone<span>Senior Partner</span></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get_in_touch section_p_100">
+        <div class="container_1168 d_flex flex_wrap">
+            <div class="container_get_in_touch">
+                <h4 class="acent-text">Get in touch</h4>
+                <h2 class="h2-medium">Think we would be a good fit for your next project?</h2>
+            </div>
+            <div>
+                <a href="#">Get in touch</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<!--______________________________________________-->
+
+<!--<section class="main_banner">-->
+<!--    <div class="container d_flex">-->
+<!--        <article>-->
+<!--            <h4 class="acent-text">Wishbone+Partners</h4>-->
+<!--            <h1>The home of <br>beautiful <br>architecture.</h1>-->
+<!--            <p>We are an architecture firm with a focus on beautiful but functional design. At its heart, we-->
+<!--                believe-->
+<!--                design is about usability and accessibility — these are the guiding principles for our work. Read-->
+<!--                more about our previous projects, our process and our team below.</p>-->
+<!--            <a href="#" target="_blank">Read more</a>-->
+<!--        </article>-->
+<!--    </div>-->
+<!--    <div class="main_bg">-->
+<!--    </div>-->
 <!--</section>-->
+<!--<section class="section_p_100 section_our_firm">-->
+<!--    <div class="container-small d_flex_left">-->
+<!--        <h2 class="h2_small">Our firm</h2>-->
+<!--        <div class="content-our-firm">-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum-->
+<!--                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae-->
+<!--                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique-->
+<!--                posuere.</p>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum-->
+<!--                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae-->
+<!--                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique-->
+<!--                posuere.</p>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum-->
+<!--                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae-->
+<!--                erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique-->
+<!--                posuere.</p>-->
+<!--            <div class="d_flex d_flex_left">-->
+<!--                <img src="./images/Stephen-Collier.png" alt="partner_photo">-->
+<!--                <h4>Stephen Collier<span>Senior Partner</span></h4>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!--<section class="portfolio1 portfolio_general_css">-->
+<!--    <div class="sub_container">-->
+<!--        <h4>Reeding House</h4>-->
+<!--        <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>-->
+<!--    </div>-->
+<!--</section>-->
+<!--<section class="section_p_100 section_our_process">-->
+<!--    <div class="container">-->
+<!--        <h4 class="acent-text">Our process</h4>-->
+<!--        <h2 class="h2-medium">How we do what we do.</h2>-->
+<!--        <div class="d_flex container_1168">-->
+<!--            <div class="item">-->
+<!--                <div class="item_img">-->
+<!--                    <img src="images/icon1.png" alt="icon1">-->
+<!--                </div>-->
+<!--                <h3>Sketching</h3>-->
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus-->
+<!--                    sapien ac arcu tempor, vitae tempor leo iaculis.</p>-->
+<!--            </div>-->
+<!--            <div class="item">-->
+<!--                <div class="item_img">-->
+<!--                    <img src="images/icon2.png" alt="icon2">-->
+<!--                </div>-->
+<!--                <h3>Finalizing</h3>-->
+<!--                <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu-->
+<!--                    tempor, vitae.</p>-->
+<!--            </div>-->
+<!--            <div class="item">-->
+<!--                <div class="item_img">-->
+<!--                    <img src="images/icon3.png" alt="icon3">-->
+<!--                </div>-->
+<!--                <h3>Building</h3>-->
+<!--                <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae-->
+<!--                    lorem ipsum dolor leo iaculis.</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!--<section class="portfolio2 portfolio_general_css">-->
+<!--    <div class="sub_container">-->
+<!--        <h4>The marble staircase</h4>-->
+<!--        <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>-->
+<!--    </div>-->
+<!--</section>-->
+<!--<section class="customers">-->
+<!--    <div class="container_1168 d_flex_centre flex_wrap">-->
+<!--        <div class="column_content">-->
+<!--            <h4>prior clients</h4>-->
+<!--            <h2 class="h2_small">Happy customers.</h2>-->
+<!--            <p>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.-->
+<!--                Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>-->
+<!--        </div>-->
+<!--        <div class="column_icons">-->
+<!--            <div class="flex_icon">-->
+<!--                <a href="#"><img src="./images/hill_hayers.png" alt="hill_hayers"></a>-->
+<!--            </div>-->
+<!--            <div class="flex_icon">-->
+<!--                <a href="#"><img src="./images/studio_cail.png" alt="studio_cail"></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="column_icons">-->
+<!--            <div class="flex_icon">-->
+<!--                <a href="#"><img src="./images/riksgransen.png" alt="riksgransen"></a>-->
+<!--            </div>-->
+<!--            <div class="flex_icon">-->
+<!--                <a href="#"><img src="./images/chill_Industries.png" alt="chill_Industries"></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!--<section class="portfolio3 portfolio_general_css">-->
+<!--    <div class="sub_container">-->
+<!--        <h4>The swirling staircase</h4>-->
+<!--        <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>-->
+<!--    </div>-->
+<!--</section>-->
+<!--<section class="featured_projects">-->
+<!--    <div class="container_1168">-->
+<!--        <h2 class="h2-medium">Featured projects</h2>-->
+<!--        <p>Some of the latest and greatest projects from us here at Wishbone+Partners.</p>-->
+<!--        <div id="accordion">-->
+<!--            <h3>View all projects</h3>-->
+<!--            <div class="d_flex">-->
+<!--                <div class="item">-->
+<!--                    <div class="description">-->
+<!--                        <h4>-->
+<!--                            <span>New York</span>-->
+<!--                            Big Road Brewery-->
+<!--                        </h4>-->
+<!--                        <a href="#">Read more</a>-->
+<!--                    </div>-->
+<!--                    <img src="images/project1.jpg" alt="img">-->
+<!--                </div>-->
+<!--                <div class="item">-->
+<!--                    <div class="description">-->
+<!--                        <h4>-->
+<!--                            <span>New York</span>-->
+<!--                            Big Road Brewery-->
+<!--                        </h4>-->
+<!--                        <a href="#">Read more</a>-->
+<!--                    </div>-->
+<!--                    <img src="images/project2.jpg" alt="img">-->
+<!--                </div>-->
+<!--                <div class="item">-->
+<!--                    <div class="description">-->
+<!--                        <h4>-->
+<!--                            <span>New York</span>-->
+<!--                            Big Road Brewery-->
+<!--                        </h4>-->
+<!--                        <a href="#">Read more</a>-->
+<!--                    </div>-->
+<!--                    <img src="images/project3.jpg" alt="img">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <h3>View all projects</h3>-->
+<!--            <div class="d_flex">-->
+<!--                <div class="item">-->
+<!--                    <div class="description">-->
+<!--                        <h4>-->
+<!--                            <span>New York</span>-->
+<!--                            Big Road Brewery-->
+<!--                        </h4>-->
+<!--                        <a href="#">Read more</a>-->
+<!--                    </div>-->
+<!--                    <img src="images/project1.jpg" alt="img">-->
+<!--                </div>-->
+<!--                <div class="item">-->
+<!--                    <div class="description">-->
+<!--                        <h4>-->
+<!--                            <span>New York</span>-->
+<!--                            Big Road Brewery-->
+<!--                        </h4>-->
+<!--                        <a href="#">Read more</a>-->
+<!--                    </div>-->
+<!--                    <img src="images/project2.jpg" alt="img">-->
+<!--                </div>-->
+<!--                <div class="item">-->
+<!--                    <div class="description">-->
+<!--                        <h4>-->
+<!--                            <span>New York</span>-->
+<!--                            Big Road Brewery-->
+<!--                        </h4>-->
+<!--                        <a href="#">Read more</a>-->
+<!--                    </div>-->
+<!--                    <img src="images/project3.jpg" alt="img">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</section>-->
+<!--<section class="team section_p_100">-->
+<!--    <div class="team_container container_1168 d_flex_left flex_wrap">-->
+<!--        <div class="meet_team">-->
+<!--            <h2 class="h2_small">Meet our team</h2>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum-->
+<!--                tristique. Duis cursus, mi quis.</p>-->
+<!--            <a href="#">See team</a>-->
+<!--        </div>-->
+<!--        <div class="team_container_flex">-->
+<!--            <div class="team_block_flex">-->
+<!--                <img src="./images/Stephen-Collier.png" alt="Stephen Collier">-->
+<!--                <h4>Stephen Collier<span>Senior Partner</span></h4>-->
+<!--            </div>-->
+<!--            <div class="team_block_flex">-->
+<!--                <img src="./images/Ferris_Wonder.png" alt="Ferris Wonder">-->
+<!--                <h4>Ferris Wonder<span>Associate Partner</span></h4>-->
+<!--            </div>-->
+<!--            <div class="team_block_flex">-->
+<!--                <img src="./images/Niko_Ferry.png" alt="Niko Ferry">-->
+<!--                <h4>Niko Ferry<span>Partner</span></h4>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="team_container_flex">-->
+<!--            <div class="team_block_flex">-->
+<!--                <img src="./images/Nolan_Peters.png" alt="Nolan Peters">-->
+<!--                <h4>Nolan Peters<span>Associate</span></h4>-->
+<!--            </div>-->
+<!--            <div class="team_block_flex">-->
+<!--                <img src="./images/Aria_Stone.png" alt="Aria Stone">-->
+<!--                <h4>Aria Stone<span>Senior Partner</span></h4>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!--<section class="get_in_touch section_p_100">-->
+<!--    <div class="container_1168 d_flex flex_wrap">-->
+<!--        <div class="container_get_in_touch">-->
+<!--            <h4 class="acent-text">Get in touch</h4>-->
+<!--            <h2 class="h2-medium">Think we would be a good fit for your next project?</h2>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <a href="#">Get in touch</a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!--___________________________________________________________-->
+
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
+
+
+
